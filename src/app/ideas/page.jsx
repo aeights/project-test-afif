@@ -1,5 +1,4 @@
 "use client"
-import PostApi, { fetchData } from '@/api/PostApi';
 import HeaderComponent from '@/components/HeaderComponent'
 import HeaderPostComponent from '@/components/HeaderPostComponent'
 import PaginationPostComponent from '@/components/PaginationPostComponent';

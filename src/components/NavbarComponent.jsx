@@ -66,7 +66,7 @@ function NavbarComponent() {
                 </div>
                 <ul className='flex justify-center items-center gap-4'>
                     {navLink.map(({ link, name }) => (
-                        <li><Link key={name} className={`text-white hover:font-semibold ${pathname === link ? 'underline':''}`} href={link}>{name}</Link></li>
+                        <li key={name}><Link className={`text-white hover:font-semibold ${pathname === link ? 'underline':''}`} href={link}>{name}</Link></li>
                     ))}
                 </ul>
             </nav>
